@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>Unit Study Materials</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <div id="logo"><h1>21CS209 - INTERNET PROGRAMMING</h1></div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <h2>Unit Wise Study Materials</h2>
+        <br>
+        <br>
+      
+        <!-- Unit 1 -->
+        <section id="unit1">
+            <h2 class="unit-heading">Unit 1: Website Basics,HTML5, CSS3</h2>
+            <label for="topicUnit1" class="addingNote">Select Topic</label>
+            <select id="topicUnit1" class="sub-division-dropdown">
+                <option value="html">HTML</option>
+                <option value="topic2">Topic 2</option>
+                <option value="topic3">Topic 3</option>
+            </select>
+            <button class="btn" onclick="viewMaterials('unit1', 'topicUnit1')">View Materials</button>
+            <div class="pdf-container" id="unit1PDF"></div>
+        </section>
+
+        <!-- Unit 2 -->
+        <section id="unit2">
+            <h2 class="unit-heading">Unit 2: Client Side Scripting</h2>
+            <label for="topicUnit2" class="addingNote">Select Topic</label>
+            <select id="topicUnit2" class="sub-division-dropdown">
+                <option value="topic1">Topic 1</option>
+                <option value="topic2">Topic 2</option>
+                <option value="topic3">Topic 3</option>
+            </select>
+            <button class="btn" onclick="viewMaterials('unit2', 'topicUnit2')">View Materials</button>
+            <div class="pdf-container" id="unit2PDF"></div>
+        </section>
+
+        <!-- Unit 3 -->
+        <section id="unit3">
+            <h2 class="unit-heading">Unit 3: Server Side Programming</h2>
+            <label for="topicUnit3" class="addingNote">Select Topic</label>
+            <select id="topicUnit3" class="sub-division-dropdown">
+                <option value="topic1">Topic 1</option>
+                <option value="topic2">Topic 2</option>
+                <option value="topic3">Topic 3</option>
+            </select>
+            <button class="btn" onclick="viewMaterials('unit3', 'topicUnit3')">View Materials</button>
+            <div class="pdf-container" id="unit3PDF"></div>
+        </section>
+
+        <!-- Unit 4 -->
+        <section id="unit4">
+            <h2 class="unit-heading">Unit 4: PHP and AJAX</h2>
+            <label for="topicUnit4" class="addingNote">Select Topic</label>
+            <select id="topicUnit4" class="sub-division-dropdown">
+                <option value="topic1">Topic 1</option>
+                <option value="topic2">Topic 2</option>
+                <option value="topic3">Topic 3</option>
+            </select>
+            <button class="btn" onclick="viewMaterials('unit4', 'topicUnit4')">View Materials</button>
+            <div class="pdf-container" id="unit4PDF"></div>
+        </section>
+
+        <!-- Unit 5 -->
+        <section id="unit5">
+            <h2 class="unit-heading">Unit 5: XML and Web Servises</h2>
+            <label for="topicUnit5" class="addingNote">Select Topic</label>
+            <select id="topicUnit5" class="sub-division-dropdown">
+                <option value="topic1">Topic 1</option>
+                <option value="topic2">Topic 2</option>
+                <option value="topic3">Topic 3</option>
+            </select>
+            <button class="btn" onclick="viewMaterials('unit5', 'topicUnit5')">View Materials</button>
+            <div class="pdf-container" id="unit5PDF"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
